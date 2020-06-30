@@ -10,7 +10,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.exodia.gdsk.gdsflicker.data.PhotoItem
 import com.exodia.gdsk.gdsflicker.databinding.GridPhotoItemOverlayBinding
 
-
 class PhotosAdapter : PagedListAdapter<PhotoItem, PhotoItemHolder>(
     PhototItemDiffCallback()
 ) {
