@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:background="@color/defaultMenuBackgroundColor">
+
+
+    <ImageView
+        android:id="@+id/img_history"
+        android:layout_width="@dimen/default_icon_size"
+        android:layout_height="@dimen/default_icon_size"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:foregroundGravity="center"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ic_history_white_24dp"
+        tools:srcCompat="@drawable/ic_history_white_24dp" />
+
+    <TextView
+        android:id="@+id/tv_query_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/default_padding"
+        android:paddingLeft="@dimen/default_padding"
+        android:paddingEnd="@dimen/default_padding"
+        android:paddingRight="@dimen/default_padding"
+        android:text="TextView"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16sp" />
+</LinearLayout>
