@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/phototGalleryFragment">
+
+    <fragment
+        android:id="@+id/phototGalleryFragment"
+        android:name="com.exodia.gdsk.gdsflicker.ui.gallery.PhotoGalleryFragment"
+        android:label="PhototGalleryFragment" >
+
+        <action
+            android:id="@+id/action_phototGalleryFragment_to_photoDetailFragment"
+            app:destination="@id/photoDetailFragment"
+            app:popUpTo="@id/phototGalleryFragment" >
+            <argument
+                android:name="argPhotoItem"
+                app:argType="com.exodia.gdsk.gdsflicker.data.PhotoItem"
+                android:defaultValue="@null"
+                app:nullable="true"/>
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/photoDetailFragment"
+        android:name="com.exodia.gdsk.gdsflicker.ui.details.PhotoDetailFragment"
+        android:label="PhotoDetailFragment" >
+        <argument
+            android:name="argPhotoItem"
+            app:argType="com.exodia.gdsk.gdsflicker.data.PhotoItem"
+            android:defaultValue="@null"
+            app:nullable="true"/>
+    </fragment>
+</navigation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryLight">#9e47ff</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorSecondaryLight">#66fff8</color>
+    <color name="colorSecondaryDark">#00a895</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#ffffff</color>
+    <color name="defaultMenuBackgroundColor">#854aff</color>
+    <color name="progressBarColor">#ff9558</color>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GdsFlicker</string>
+    <string name="search">Search</string>
+    <string name="clear">Clear</string>
+    <string name="clear_search">Clear Search</string>
+    <string name="notification_channel_name">GdsFlickrFetchr</string>
+    <string name="new_pictures_title">New pictures from Flickr</string>
+    <string name="new_pictures_text">You have new pictures in GdsFlickr</string>
+    <string name="start_polling">Start Polling</string>
+    <string name="stop_polling">Stop Polling</string>
+    <string name="more_info_title">More info...</string>
+    <string name="background_image">blurred image</string>
+    <string name="main_image">main image</string>
+    <string name="refresh_menu_title">Refresh</string>
+</resources>
