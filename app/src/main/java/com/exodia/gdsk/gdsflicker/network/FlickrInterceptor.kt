@@ -5,7 +5,7 @@ import okhttp3.Interceptor
 import okhttp3.Response
 
 
-const val FLICKR_API_KEY = "044b575b128858997d60420e12d3f86f"
+const val FLICKR_API_KEY = "<FLICKR_API_KEY>"
 private const val SAFE_SEARCH_PARAM = "safesearch"
 private const val API_KEY_PARAM = "api_key"
 private const val FORMAT_PARAM = "format"
