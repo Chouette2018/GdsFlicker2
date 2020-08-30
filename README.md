@@ -9,7 +9,7 @@ The main view is displayed with a gradient background:
 
 ![flicker spinner](https://github.com/Chouette2018/GdsFlicker/blob/master/screenshots/flicker_spinner.png?raw=true "Flicker spinner")
 
-The images thumbnails are displayed using a staggered grid layout with 2 columnes in portarit and 3 columns in landscape mode.
+The images thumbnails are displayed using a staggered grid layout with 2 columns in portarit and 3 columns in landscape mode.
 A gradient scrim is being used to display the images title independently of their colors.
 
 ![flicker main portrait](https://github.com/Chouette2018/GdsFlicker/blob/master/screenshots/flicker_ferrari_search.png?raw=true "flicker main portrait")
